@@ -8,6 +8,7 @@ type Memory = {
   src?: string;
   fit?: "cover" | "contain";
   pos?: "center" | "top";
+  rotate?: 180;
 };
 
 type Level = {
@@ -41,7 +42,7 @@ const LEVELS: Level[] = [
       { caption: "placement or trip??", scene: "trip", src: "/memories/trip-1.jpg" },
       { caption: "fort kochiii", scene: "trip", src: "/memories/trip-2.jpg" },
       { caption: "Bells, lights, and a mirror selfie", scene: "trip", src: "/memories/trip-3.jpg" },
-      { caption: "Chennaiiiii", scene: "trip", src: "/memories/trip-4.jpg", fit: "contain" },
+      { caption: "Chennaiiiii", scene: "trip", src: "/memories/trip-4.jpg", fit: "cover", rotate: 180 },
       { caption: "oh kochi!!", scene: "trip", src: "/memories/trip-5.jpg", pos: "top" },
       { caption: "IIIIIIIII IVVVVVVVVVV", scene: "trip", src: "/memories/trip-6.jpg" },
     ],
@@ -320,7 +321,7 @@ export function Hunt() {
                         <img
                           src={m.src}
                           alt={m.caption}
-                          className={`h-full w-full ${m.fit === "contain" ? "object-contain" : "object-cover"} ${m.pos === "top" ? "object-top" : "object-center"}`}
+                          className={`h-full w-full ${m.fit === "contain" ? "object-contain" : "object-cover"} ${m.pos === "top" ? "object-top" : "object-center"} ${m.rotate === 180 ? "rotate-180" : ""}`}
                         />
                       ) : (
                         <Scene kind={m.scene} />
