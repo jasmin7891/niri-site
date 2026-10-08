@@ -29,7 +29,7 @@ const LEVELS: Level[] = [
       { caption: "Starbucks @Coimbatoree", scene: "cafe", src: "/memories/cafe-2.jpg" },
       { caption: "Boba and Matcha loveee", scene: "cafe", src: "/memories/cafe-3.jpg" },
       { caption: "That Cloud 9 wafflee", scene: "cafe", src: "/memories/cafe-4.jpg" },
-      { caption: "Palaaram Brownieee", scene: "cafe", src: "/memories/cafe-5.jpg" },
+      { caption: "Palaaram Brownieee", scene: "cafe", src: "/memories/cafe-5.jpeg" },
     ],
   },
   {
