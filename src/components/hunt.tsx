@@ -29,6 +29,7 @@ const LEVELS: Level[] = [
       { caption: "Starbucks @Coimbatoree", scene: "cafe", src: "/memories/cafe-2.jpg" },
       { caption: "Boba and Matcha loveee", scene: "cafe", src: "/memories/cafe-3.jpg" },
       { caption: "That Cloud 9 wafflee", scene: "cafe", src: "/memories/cafe-4.jpg" },
+      { caption: "Palaaram Brownieee", scene: "cafe", src: "/memories/cafe-5.jpg" },
     ],
   },
   {
@@ -51,10 +52,15 @@ const LEVELS: Level[] = [
     clue: "Steam, stories, the long talks that never stay short.",
     found: "Tea was just the excuse. The gossip was the point.",
     memories: [
-      { caption: "One pot, too many secrets", scene: "tea" },
-      { caption: "The conversation that ran long", scene: "tea" },
-      { caption: "Stories that needed a refill", scene: "tea" },
-      { caption: "The part you only told once", scene: "tea" },
+      { caption: "One pot, too many secrets", scene: "tea-1.jpg" },
+      { caption: "The conversation that ran long", scene: "tea-2.jpg" },
+      { caption: "Stories that needed a refill", scene: "tea-3.jpg" },
+      { caption: "The part you only told once", scene: "tea-4.jpg" },
+      { caption: "One pot, too many secrets", scene: "tea-5.jpg" },
+      { caption: "The conversation that ran long", scene: "tea-6.jpg" },
+      { caption: "Stories that needed a refill", scene: "tea-7.jpg" },
+      { caption: "The part you only told once", scene: "tea-8.jpg" },
+      { caption: "The part you only told once", scene: "tea-9.jpg" },
     ],
   },
 ];
