@@ -52,19 +52,18 @@ const LEVELS: Level[] = [
     clue: "Steam, stories, the long talks that never stay short.",
     found: "Tea was just the excuse. The gossip was the point.",
     memories: [
-      { caption: "One pot, too many secrets", scene: "tea-1.jpg" },
-      { caption: "The conversation that ran long", scene: "tea-2.jpg" },
-      { caption: "Stories that needed a refill", scene: "tea-3.jpg" },
-      { caption: "The part you only told once", scene: "tea-4.jpg" },
-      { caption: "One pot, too many secrets", scene: "tea-5.jpg" },
-      { caption: "The conversation that ran long", scene: "tea-6.jpg" },
-      { caption: "Stories that needed a refill", scene: "tea-7.jpg" },
-      { caption: "The part you only told once", scene: "tea-8.jpg" },
-      { caption: "The part you only told once", scene: "tea-9.jpg" },
+      { caption: "One pot, too many secrets", scene: "tea", src: "/memories/tea-1.jpg" },
+      { caption: "The conversation that ran long", scene: "tea", src: "/memories/tea-2.jpg" },
+      { caption: "Stories that needed a refill", scene: "tea", src: "/memories/tea-3.jpg" },
+      { caption: "The part you only told once", scene: "tea", src: "/memories/tea-4.jpg" },
+      { caption: "Late night chai talks", scene: "tea", src: "/memories/tea-5.jpg" },
+      { caption: "Just one more cup...", scene: "tea", src: "/memories/tea-6.jpg" },
+      { caption: "When the gossip got good", scene: "tea", src: "/memories/tea-7.jpg" },
+      { caption: "Tea + secrets = perfect combo", scene: "tea", src: "/memories/tea-8.jpg" },
+      { caption: "Never enough time for all the stories", scene: "tea", src: "/memories/tea-9.jpg" },
     ],
   },
 ];
-
 const ROWS = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
 const SAVE_KEY = "niranjana-hunt-v1";
 
